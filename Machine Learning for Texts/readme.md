@@ -52,5 +52,5 @@ There are other fields in the dataset. Feel free to explore them if you'd like.
 
 
 # LGBM Classifier  Fit Results
- <a href="url"><img src="data_trend.png" height="auto"  style="border-radius:20px"></a>
+ <a href="url"><img src="Training_result.png" height="auto"  style="border-radius:20px"></a>
 
