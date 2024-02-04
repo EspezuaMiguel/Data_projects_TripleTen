@@ -108,3 +108,4 @@ I completed several projects during my Data Science bootcamp at Tripleten.
   </tr>
 </table>
 
+[Certification ]('Miguel_Polanco_DS.pdf')
