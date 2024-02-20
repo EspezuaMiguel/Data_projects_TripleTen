@@ -42,4 +42,4 @@ The data consists of files obtained from different source:
 
 The customerID column contains a unique code assigned to each client.
 
-**Target **is in the EndDate column.
+**Target** is in the EndDate column.
