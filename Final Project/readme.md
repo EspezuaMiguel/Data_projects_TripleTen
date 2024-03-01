@@ -1,4 +1,4 @@
-**AN OVERVIEW OF CUSTOMER CHURN**
+#**AN OVERVIEW OF CUSTOMER CHURN**
 
 Customer churn, also known as customer attrition, referred to the phenomenon where customers or subscribers discontinued their association with a particular company or service. This metric held significant importance as retaining existing customers proved to be more cost-effective than acquiring new ones, as it eliminated the expenses associated with sales and marketing. Customer retention was particularly advantageous as it signified that a company had already established trust and loyalty among its customer base.
 
@@ -36,7 +36,7 @@ Moving forward, there are several avenues for future improvement:
 4. **Continuous Monitoring and Refinement**: Ongoing monitoring and refinement of the model with new data will be crucial to ensure its continued effectiveness in predicting churn in the dynamic telecommunications landscape.
 
 
-**Project Description**
+##**Project Description**
 
 The **telecom operator Interconnect** would like to forecast the churn of their clients.
 
