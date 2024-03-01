@@ -8,6 +8,34 @@ In front of you is data going back to 2016. Let’s imagine that it’s December
 
 The dataset contains the abbreviation ESRB. The Entertainment Software Rating Board evaluates a game's content and assigns an age rating such as Teen or Mature.
 
+## Conclusion
+
+In this project, I worked for the online store Ice, which sells video games worldwide. The dataset available contained user and expert reviews, genres, platforms (e.g., Xbox or PlayStation), and historical data on game sales, spanning back to 2016. The goal was to identify patterns that determine whether a game succeeds or not, enabling the identification of potential big winners and the planning of advertising campaigns for 2017.
+
+### Data Analysis:
+
+- Utilizing the open-source dataset up to 2016, we conducted a comprehensive analysis to understand the performance and behavior of the video games industry.
+- Hypothesis tests were performed to compare the performance of different genres and platforms, confirming that certain genres and platforms exhibited similar market performance.
+- The analysis revealed that the top platforms for game demand were PS4, PS3, XOne, 3DS, and X360.
+- Action, Shooter, Sports, Role-Playing, and Miscellaneous were identified as the genres with the highest sales.
+- Games with ratings of M, E, T, and E10+ were found to have the highest demand.
+
+### Version 2 (V2) Update:
+
+- After refining the analysis to focus on sales data from 2013 onwards, a clear trend in platform discontinuity was observed, leading to the exclusion of data prior to 2013 for prediction calculations.
+- Hypothesis testing results indicated that the genres of Action and Sports were significantly different in performance.
+
+### Recommendations:
+
+1. **Focus on High-Demand Platforms and Genres**: Ice should prioritize stocking games for platforms like PS4, PS3, XOne, 3DS, and X360, as well as genres such as Action, Shooter, Sports, Role-Playing, and Miscellaneous to maximize sales potential.
+
+2. **Targeted Marketing Strategies**: Develop targeted advertising campaigns tailored to the preferences of the identified target audience for each genre and platform.
+
+3. **Continuous Monitoring and Analysis**: Regularly update the analysis to adapt to changing market trends and consumer preferences, ensuring that Ice remains responsive to shifts in the video game industry landscape.
+
+4. **Enhanced Data Quality Assurance**: Implement measures to ensure data accuracy and completeness, particularly regarding user and expert reviews and sales data, to improve the reliability of future analyses and predictions.
+
+By implementing these recommendations, Ice can position itself strategically to capitalize on emerging opportunities and drive sustained growth in the competitive video game market.
 
 ### **Instructions for completing the project**
 
