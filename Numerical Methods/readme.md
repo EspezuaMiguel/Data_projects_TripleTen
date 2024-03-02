@@ -68,3 +68,94 @@ The dataset is stored in file `/datasets/car_data.csv`.[ download dataset](https
 **Target**
 
 _Price_ — price (Euro)
+
+
+# Conclusion
+
+## Project Overview
+
+Rusty Bargain, a used car sales service, aimed to develop an app to attract new customers by providing them with the market value of their cars. The project involved building a model to determine the value of cars using historical data on technical specifications, trim versions, and prices.
+
+## Project Execution
+
+1. **Data Exploration**: The dataset containing information such as vehicle type, registration year, gearbox type, power, model, mileage, registration month, fuel type, brand, repair status, and other features was downloaded and explored.
+
+2. **Model Training**: Different models with various hyperparameters were trained, including linear regression for a sanity check, decision tree, random forest, LightGBM with hyperparameter tuning, and CatBoost. These models were trained to compare their performance in terms of prediction quality and speed.
+
+3. **Model Evaluation**: The Root Mean Square Error (RMSE) metric was used to evaluate the models' prediction quality. The time required for training each model was also analyzed to assess the speed of prediction.
+
+## Findings
+
+An alternative approach to gradient boosting can enhance the efficiency of model training and yield superior RMSE scores compared to Linear Regression. Random Forest is not a viable option due to the extensive time required to identify optimal hyperparameters and subsequently train the model. In terms of both training speed and quality, LightGBM demonstrated the most impressive performance.
+
+## Recommendations
+
+1. **Model Selection**: Based on the findings, it is recommended to use LightGBM for model deployment due to its superior performance in terms of both prediction quality and training speed.
+
+2. **Further Exploration**: Explore additional hyperparameter tuning techniques and model architectures to further improve prediction quality and speed.
+
+3. **Data Enhancement**: Consider collecting additional data or refining existing features to enhance the accuracy of the model predictions.
+
+## Future Improvements
+
+1. **Advanced Modeling Techniques**: Experiment with advanced modeling techniques, such as ensemble learning or neural networks, to potentially improve prediction quality and speed.
+
+2. **Automated Hyperparameter Tuning**: Implement automated hyperparameter tuning algorithms to streamline the model development process and optimize performance.
+
+3. **Real-Time Data Updates**: Incorporate mechanisms for real-time data updates to ensure that the model reflects the latest market trends and fluctuations.
+
+By implementing these recommendations and pursuing future improvements, Rusty Bargain can enhance its app's functionality and provide customers with accurate and efficient car valuation services.
+
+### Model Performance Comparison
+
+
+<table>
+  <tr>
+   <td>Model
+   </td>
+   <td>RMSE - the quality of the prediction
+   </td>
+   <td>the time required for training
+   </td>
+  </tr>
+  <tr>
+   <td>LightGBM parameter 1
+   </td>
+   <td>1652.48
+   </td>
+   <td>41.8 sec
+   </td>
+  </tr>
+  <tr>
+   <td>LightGBM parameter 2
+   </td>
+   <td>1649.50
+   </td>
+   <td>29 sec
+   </td>
+  </tr>
+  <tr>
+   <td>CatBoost
+   </td>
+   <td>1734.55
+   </td>
+   <td>2min 12s
+   </td>
+  </tr>
+  <tr>
+   <td>RandomForest Parameter 1
+   </td>
+   <td>2840.62
+   </td>
+   <td>6min 2s
+   </td>
+  </tr>
+  <tr>
+   <td>RandomForest Parameter 2
+   </td>
+   <td>3426.50
+   </td>
+   <td>36.8 s
+   </td>
+  </tr>
+</table>
