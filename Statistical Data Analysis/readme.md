@@ -145,3 +145,51 @@ The `plans` table (data on the plans):
 * _usd_per_minute_ — price per minute after exceeding the package limits (e.g., if the package includes 100 minutes, the 101st minute will be charged)
 * _usd_per_message_ — price per text after exceeding the package limits
 * _usd_per_gb_ — price per extra gigabyte of data after exceeding the package limits (1 GB = 1024 megabytes)
+
+# Conclusion
+
+## Project Overview
+
+As an analyst for Megaline, a telecom operator offering prepaid plans Surf and Ultimate, a preliminary analysis was conducted to determine which plan brings in more revenue. The analysis was based on data from 500 Megaline clients, including information on calls, text messages, and data usage in 2018. Additionally, a comparison was made between users from the NY-NJ area and users from other regions to test for differences in revenue.
+
+## Project Execution
+
+1. **Data Preparation**: The data files were opened and studied for general information. Data preparation involved converting data to the necessary types, identifying and eliminating errors, and adding a state column to assign users to their respective states.
+
+2. **Data Analysis**: For each user, the number of calls made and minutes used per month, the number of text messages sent per month, the volume of data per month, and the monthly revenue from each user were calculated. Customer behavior was analyzed, and the minutes, texts, and volume of data required per month were determined. Mean, variance, and standard deviation were calculated, and histograms were plotted to describe the distributions. The final comparison revealed that the 'Surf' plan generated more revenue than the 'Ultimate' plan.
+
+3. **Hypothesis Testing**:
+   - Formulated hypotheses:
+     - Null hypothesis (H0): The average revenue from users of Ultimate and Surf calling plans is the same.
+     - Alternative hypothesis (H1): The average revenue from users of Ultimate and Surf calling plans differs.
+     - Null hypothesis (H0): The average revenue from users in the NY-NJ area is the same as that of users from other regions.
+     - Alternative hypothesis (H1): The average revenue from users in the NY-NJ area is different from that of users from other regions.
+   - Criteria used for testing:
+     - Alpha value: 0.05
+     - Two-sample t-test was used to compare the average revenue from users of Ultimate and Surf calling plans.
+     - Two-sample t-test was used to compare the average revenue from users in the NY-NJ area with that of users from other regions.
+
+## Findings
+
+1. **Customer Behavior**: Ultimate plan users tend to use more minutes, texts, and data compared to Surf plan users. However, both plans have similar performances in terms of revenue generation.
+2. **Hypothesis Testing**:
+   - The average revenue from users of Ultimate and Surf calling plans differs significantly, with the Surf plan generating more revenue.
+   - The average revenue from users in the NY-NJ area is not significantly different from that of users from other regions.
+
+## Recommendations
+
+1. **Marketing Strategy**: Continue promoting both Surf and Ultimate plans, but focus on the Surf plan as it generates higher revenue.
+2. **Regional Targeting**: While the NY-NJ area does not show significant differences in revenue compared to other regions, consider targeted marketing efforts to retain and acquire customers in this area.
+
+## Future Improvements
+
+1. **Data Collection**: Gather more data over a longer period to capture seasonal trends and fluctuations in customer behavior.
+2. **Segmentation Analysis**: Conduct segmentation analysis to identify specific customer segments that contribute significantly to revenue.
+3. **Customer Retention Strategies**: Develop strategies to improve customer retention, particularly among Surf plan users, to increase overall revenue.
+
+By implementing these recommendations and pursuing future improvements, Megaline can optimize its marketing efforts and maximize revenue from its prepaid plans.
+
+## Comparison of Surf and Ultimate Plans
+
+![Comparison](conclusionChart.png)
+
