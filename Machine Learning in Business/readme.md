@@ -63,3 +63,41 @@ Conditions:
 * After the risk evaluation, keep only the regions with the risk of losses lower than 2.5%. From the ones that fit the criteria, the region with the highest average profit should be selected.
 
 The data is synthetic: contract details and well characteristics are not disclosed.
+## Conclusion
+
+### Data Preparation and Model Training
+
+The geological exploration data for three regions were downloaded and prepared for analysis. Each dataset contained unique oil well identifiers and features representing points in the region. Linear regression models were trained and tested for each region using a 75:25 split between training and validation sets. Predictions were made for the validation set, and the average volume of predicted reserves and model RMSE were calculated for each region.
+
+### Profit Calculation and Risk Assessment
+
+Key values for profit calculation, including the budget for well development and revenue per barrel of raw materials, were stored in separate variables. The volume of reserves sufficient for profitable well development was compared with the average volume of reserves in each region. A function to calculate profit from a set of selected oil wells and model predictions was written. The wells with the highest predicted values were selected, and the target volume of reserves was summarized. Based on the findings, region 1 was suggested for oil wells' development due to its higher average profit and lower confidence interval range.
+
+### Risk Evaluation and Region Selection
+
+Using the bootstrapping technique with 1000 samples, the distribution of profit for each region was determined. The average profit, 95% confidence interval, and risk of losses were calculated for each region. Region 1 exhibited the highest average profit and the lowest risk of losses, making it the optimal choice for oil wells' development.
+
+## Recommendations
+
+1. **Further Analysis**: Conduct additional analysis to understand the geological characteristics and potential risks associated with each region in more detail.
+
+2. **Optimization Strategies**: Explore optimization strategies to maximize profit margins and minimize risks in oil well development projects.
+
+3. **Continuous Monitoring**: Regularly monitor and evaluate the performance of oil wells in Region 1 to ensure profitability and mitigate potential risks.
+
+## Future Improvements
+
+1. **Advanced Modeling Techniques**: Experiment with advanced modeling techniques, such as ensemble learning or neural networks, to potentially improve the accuracy and predictive power of the models.
+
+2. **Enhanced Risk Assessment**: Develop more sophisticated risk assessment methods to better quantify and mitigate potential losses in oil well development projects.
+
+3. **Exploratory Drilling**: Consider conducting exploratory drilling to gather additional data and insights into the geological characteristics of the selected region for further optimization of oil well development strategies.
+
+By implementing these recommendations and pursuing future improvements, OilyGiant can enhance its decision-making process and optimize its oil well development projects for maximum profitability and success.
+
+## Average Profit for each Region
+ <a href="url"><img src="conclusion01.png" height="auto"  style="border-radius:20px"></a>
+ ## 95% Confidence Interval Range for Each Region
+ <a href="url"><img src="conclusion02.png" height="auto"  style="border-radius:20px"></a>
+## Risk of Losses for Each Region
+ <a href="url"><img src="conclusion03.png" height="auto"  style="border-radius:20px"></a>
