@@ -18,6 +18,4 @@ During my Data Science bootcamp at TripleTen, I completed several projects cover
 | [Taxi Order](https://github.com/EspezuaMiguel/Data_projects_TripleTen/tree/main/Time%20Series) | Constructed a forecasting model to predict taxi bookings for the upcoming hour using historical data. |
 | [Movie Reviews](https://github.com/EspezuaMiguel/Data_projects_TripleTen/tree/main/Machine%20Learning%20for%20Texts) | Developed a sentiment analysis system for movie reviews to effectively filter and classify sentiments expressed. |
 | [Age Detection](https://github.com/EspezuaMiguel/Data_projects_TripleTen/tree/main/Computer%20Vision) | Trained a model to autonomously identify a patron's age at a point of sale using computer vision. |
-| Client Churn Model | Implemented a classification model to forecast client churn. |
 
-These projects provided valuable hands-on experience in data analysis, machine learning, and statistical modeling, preparing me for real-world challenges in the field of data science.
