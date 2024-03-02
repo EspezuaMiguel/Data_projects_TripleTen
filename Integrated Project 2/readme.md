@@ -46,7 +46,7 @@ Linear regression and Random forest regressor have the best result according to 
 
 ### Overall
 
-The SMAPE for the training data was found to be 7.49%, while the SMAPE for the test data was 13.99%. The lower SMAPE value for the training data indicates that the model performs better in predicting the target variable for the data it was trained on.
+The SMAPE for the training data was found to be 7.79%, while the SMAPE for the test data was 14.4%. The lower SMAPE value for the training data indicates that the model performs better in predicting the target variable for the data it was trained on.
 
 ## Recommendations
 
