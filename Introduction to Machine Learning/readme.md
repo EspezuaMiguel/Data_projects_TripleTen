@@ -31,3 +31,53 @@ Every observation in the dataset contains monthly behavior information about one
 3. `messages` — number of text messages,
 4. `mb_used` — Internet traffic used in MB,
 5. `is_ultra` — plan for the current month (Ultra - 1, Smart - 0).
+
+## Conclusion
+
+### Data Preparation
+
+Upon reviewing the data file `users_behavior.csv`, we proceeded to split the dataset into training, validation, and test sets.
+
+### Model Development
+
+Various models were trained and evaluated with different hyperparameters to determine the model with the highest accuracy. The findings of the study revealed that altering hyperparameters led to variations in model performance, but no single combination consistently exceeded the predefined accuracy threshold of 0.75.
+
+### Model Evaluation
+
+The quality of the best-performing model was assessed using the test set. The accuracy of the model was compared against the predefined threshold, and while it did not consistently meet the target accuracy, it provided valuable insights into subscriber behavior and plan recommendation.
+
+### Model Result Comparison
+
+**Model Result Comparison Table Summary**
+
+| Model                   | RMSE | Accuracy Score | Precision | Recall | F1-Score | ROC AUC |
+|-------------------------|------|----------------|-----------|--------|----------|---------|
+| Decision tree classifier| 0.461| 0.7869         | 0.7521    | 0.4489 | 0.5623   | 0.6920  |
+| Random Forest Classifier| 0.473| 0.7760         | 0.6733    | 0.5153 | 0.5838   | 0.7028  |
+| Logistic Regression     | 0.498| 0.7511         | 0.9285    | 0.1989 | 0.3277   | 0.5961  |
+
+**Observations:**
+- **Accuracy Score:** Decision tree classifier has the highest value followed by Random Forest classifier.
+- **Precision:** Logistic Regression achieved the highest value, followed by Decision tree classifier.
+- **Recall:** Random Forest classifier has the highest value, followed by Decision tree classifier.
+- **F1-Score:** Random Forest classifier has the highest value, followed by Decision tree classifier.
+- **ROC AUC:** Random Forest classifier has the highest value, followed by Decision tree classifier.
+
+After evaluating the metrics table above, Random Forest Classifier performed better followed by Decision tree classifier.
+
+### Additional Insights
+
+- **Test Score Results:** Decision tree classifier had better results on average, followed by Random Forest Classifier.
+- **Train Score Results:** Random Forest had the highest result on average.
+
+## Recommendations
+
+1. **Further Exploration:** Continue exploring different model architectures, hyperparameters, and feature engineering techniques to improve model performance and achieve the desired accuracy threshold.
+
+2. **Data Enrichment:** Consider incorporating additional features or external data sources to enhance the predictive power of the model and capture more nuanced subscriber behavior patterns.
+
+3. **Model Interpretability:** Invest in techniques for interpreting model predictions to gain deeper insights into the factors driving plan recommendation decisions.
+
+4. **Continuous Evaluation:** Regularly evaluate model performance and refine the model based on feedback from real-world subscriber behavior to ensure ongoing effectiveness and relevance.
+
+By implementing these recommendations, Megaline can develop a robust model for recommending plans to subscribers, thereby improving customer satisfaction and loyalty.
