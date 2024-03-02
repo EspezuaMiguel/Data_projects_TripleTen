@@ -77,6 +77,9 @@ Key values for profit calculation, including the budget for well development and
 
 Using the bootstrapping technique with 1000 samples, the distribution of profit for each region was determined. The average profit, 95% confidence interval, and risk of losses were calculated for each region. Region 1 exhibited the highest average profit and the lowest risk of losses, making it the optimal choice for oil wells' development.
 
+## Profits by regions
+ <a href="url"><img src="conclusion04.png" height="auto" 
+style="border-radius:20px"></a>
 ## Recommendations
 
 1. **Further Analysis**: Conduct additional analysis to understand the geological characteristics and potential risks associated with each region in more detail.
