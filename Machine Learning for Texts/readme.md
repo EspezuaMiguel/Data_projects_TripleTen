@@ -50,7 +50,42 @@ Here's the description of the selected fields:
 
 There are other fields in the dataset. Feel free to explore them if you'd like.
 
+## Conclusion
+
+### Data Preparation and EDA
+
+A dataset comprising over 40,000 rows and 15+ columns, primarily focusing on movie reviews from IMDB, was loaded and examined. Despite encountering a few N/A values, the dataset required minimal cleanup. Exploratory data analysis (EDA) provided insights into the distribution of the target variable (positive/negative reviews) and revealed the frequency of reviews per movie.
+
+### Preprocessing and Modeling
+
+Before model initialization, a preprocessing step was undertaken to normalize features, removing digits, punctuation marks, and other elements from the reviews. Three models were trained and evaluated: Logistic Regression (LR) with NLTK preprocessing, LR with spaCy preprocessing, and LightGBM with spaCy preprocessing. Additionally, a dummy model was developed for benchmarking purposes.
+
+### Experimental Results
+
+The LR models consistently outperformed the dummy model, achieving F1 scores exceeding the target threshold of 0.85. Both LR models, with NLTK and spaCy preprocessing, achieved F1 scores of 0.88, while the LightGBM model attained a slightly lower score of 0.86.
+
+### Recommendations
+
+1. **Continuous Evaluation**: Regularly monitor and evaluate model performance to ensure its effectiveness over time.
+
+2. **Enhanced Preprocessing Techniques**: Explore advanced preprocessing techniques to further improve model performance and adaptability to different datasets.
+
+3. **Model Optimization**: Experiment with hyperparameter tuning and feature engineering to enhance the models' predictive capabilities.
+
+4. **Resource Management**: Consider computational resources and time constraints when selecting and executing complex models like BERT.
+
+## Future Improvements
+
+1. **BERT Integration**: Explore the integration of BERT for more robust and context-aware sentiment analysis, considering computational limitations and performance trade-offs.
+
+2. **Ensemble Modeling**: Investigate ensemble modeling techniques to combine the strengths of multiple models and improve overall predictive accuracy.
+
+3. **Fine-Tuning**: Conduct fine-tuning of models to optimize hyperparameters and further enhance performance metrics.
+
+4. **Cross-Domain Analysis**: Extend the analysis to include reviews from other domains or platforms to create a more comprehensive sentiment analysis model.
+
+By implementing these recommendations and pursuing future improvements, the Film Junky Union can develop a highly effective system for filtering and categorizing movie reviews, catering to the needs of classic movie enthusiasts while ensuring high-quality recommendations and user experiences.
 
 # LGBM Classifier  Fit Results
- <a href="url"><img src="Training_result.png" height="auto"  style="border-radius:20 px"></a>
+ <a href="url"><img src="Training_result.png" height="auto"  style="border-radius:20px"></a>
 
