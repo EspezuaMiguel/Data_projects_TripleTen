@@ -1,4 +1,4 @@
-### **Project description**
+## **Project description**
 
 You work for the OilyGiant mining company. Your task is to find the best place for a new well.
 
@@ -77,7 +77,7 @@ Key values for profit calculation, including the budget for well development and
 
 Using the bootstrapping technique with 1000 samples, the distribution of profit for each region was determined. The average profit, 95% confidence interval, and risk of losses were calculated for each region. Region 1 exhibited the highest average profit and the lowest risk of losses, making it the optimal choice for oil wells' development.
 
-## Profits by regions
+### Profits by regions
  <a href="url"><img src="conclusion04.png" height="auto" 
 style="border-radius:20px"></a>
 ## Recommendations
@@ -98,9 +98,9 @@ style="border-radius:20px"></a>
 
 By implementing these recommendations and pursuing future improvements, OilyGiant can enhance its decision-making process and optimize its oil well development projects for maximum profitability and success.
 
-## Average Profit for each Region
+### Average Profit for each Region
  <a href="url"><img src="conclusion01.png" height="auto"  style="border-radius:20px"></a>
- ## 95% Confidence Interval Range for Each Region
+### 95% Confidence Interval Range for Each Region
  <a href="url"><img src="conclusion02.png" height="auto"  style="border-radius:20px"></a>
-## Risk of Losses for Each Region
+### Risk of Losses for Each Region
  <a href="url"><img src="conclusion03.png" height="auto"  style="border-radius:20px"></a>
